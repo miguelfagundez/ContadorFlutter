@@ -1,18 +1,10 @@
 import 'package:flutter/material.dart';
+import 'src/app.dart';
 
 void main(){
 
-  runApp(new MyContadorApp());
+  runApp(MyContadorApp());
 }
 
-class MyContadorApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Center(
-        child: Text('Hola Mundo'),
-      ),
-    );
-  }
-}
+
 
