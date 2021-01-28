@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget{
   final estilo = TextStyle( fontSize: 25.0);
 
   @override
-  Widget build(BuildContext context   ) {
+  Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
           title: Text(appText),
